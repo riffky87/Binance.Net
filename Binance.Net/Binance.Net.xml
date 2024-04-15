@@ -12591,16 +12591,6 @@
             The iceberg quantity
             </summary>
         </member>
-        <member name="P:Binance.Net.Objects.Models.BinanceOrderBase.CreateTime">
-            <summary>
-            The time the order was submitted
-            </summary>
-        </member>
-        <member name="P:Binance.Net.Objects.Models.BinanceOrderBase.UpdateTime">
-            <summary>
-            The time the order was last updated
-            </summary>
-        </member>
         <member name="P:Binance.Net.Objects.Models.BinanceOrderBase.IsWorking">
             <summary>
             Is working
@@ -15153,11 +15143,6 @@
         <member name="T:Binance.Net.Objects.Models.Spot.BinancePlacedOrder">
             <summary>
             The result of placing a new order
-            </summary>
-        </member>
-        <member name="P:Binance.Net.Objects.Models.Spot.BinancePlacedOrder.CreateTime">
-            <summary>
-            The time the order was placed
             </summary>
         </member>
         <member name="P:Binance.Net.Objects.Models.Spot.BinancePlacedOrder.Trades">

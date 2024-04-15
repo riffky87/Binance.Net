@@ -273,7 +273,7 @@ namespace Binance.Net.Clients.SpotApi
                 Side = order.Data.Side == Enums.OrderSide.Buy ? CommonOrderSide.Buy : CommonOrderSide.Sell,
                 Type = GetOrderType(order.Data.Type),
                 Status = GetOrderStatus(order.Data.Status),
-                Timestamp = order.Data.CreateTime
+                //Timestamp = order.Data.CreateTime
             });
         }
 
@@ -322,7 +322,7 @@ namespace Binance.Net.Clients.SpotApi
                     QuantityFilled = s.QuantityFilled,
                     Type = GetOrderType(s.Type),
                     Status = GetOrderStatus(s.Status),
-                    Timestamp = s.CreateTime
+                    //Timestamp = s.CreateTime
                 }));
         }
 
@@ -347,7 +347,7 @@ namespace Binance.Net.Clients.SpotApi
                     Side = s.Side == Enums.OrderSide.Buy ? CommonOrderSide.Buy: CommonOrderSide.Sell,
                     Type = GetOrderType(s.Type),
                     Status = GetOrderStatus(s.Status),
-                    Timestamp = s.CreateTime
+                    //Timestamp = s.CreateTime
                 }));
         }
 

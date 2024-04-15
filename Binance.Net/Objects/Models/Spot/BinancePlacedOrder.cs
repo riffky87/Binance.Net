@@ -11,11 +11,11 @@ namespace Binance.Net.Objects.Models.Spot
     /// </summary>
     public class BinancePlacedOrder: BinanceOrderBase
     {
-        /// <summary>
-        /// The time the order was placed
-        /// </summary>
-        [JsonProperty("transactTime"), JsonConverter(typeof(DateTimeConverter))]
-        public new DateTime CreateTime { get; set; }
+        ///// <summary>
+        ///// The time the order was placed
+        ///// </summary>
+        //[JsonProperty("transactTime"), JsonConverter(typeof(DateTimeConverter))]
+        //public new DateTime CreateTime { get; set; }
         
         /// <summary>
         /// Trades for the order
